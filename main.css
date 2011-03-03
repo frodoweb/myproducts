@@ -1,0 +1,108 @@
+ul { list-style: none; }
+body {
+	background: #f8f8f8;
+	text-align: center;
+}
+#container {
+	width: 1280px;
+	margin: 0 auto;
+	text-align: left;
+}
+/** HEADER */
+#header {
+	height: 101px;
+	background: url('assets/logo1.jpg') -330px center no-repeat;
+	-moz-box-shadow: 0px 13px 25px #c2c2c2;
+	padding-left: 137px;
+	margin-bottom: 40px;
+}
+#header > a { float: left; }
+#header ul {overflow: hidden; background: url('assets/fondomenu.png') repeat-x; }
+#header ul li {
+	width: 126px;
+	height: 100px;
+	background: url('assets/fondomenu.png') repeat-x;
+	float:left;
+	border-bottom: 1px solid #7eb148;
+	border-left: 1px solid #4aaf41;
+	border-right: 1px solid #a0d318;
+}
+#header ul li a {
+	  color: #FFFFFF;
+    display: block;
+		font: bold 1.2em/19px Ubuntu;
+		margin: 59px 0 0 7px;
+    text-decoration: none;
+    text-shadow: 1px 1px #609962;
+}
+#header a:hover { color: #d9e12e; }
+#header a.mini {
+	margin:0px;
+	border-top: 1px solid #a0d318;
+	padding: 23px 0 0 8px;
+}
+#header a.contact {
+  border-bottom: 1px solid #4AAF41;
+  font-size: 0.8em;
+  padding: 28px 0 4px 8px;
+}
+#header li.register > a {
+    font-size: 0.7em;
+    margin: 0 0 0 8px;
+}
+#header li.register > a:first-child { margin-top: 12px; } 
+#header form input[type=text] {
+    background: url("assets/lupa.png") no-repeat scroll right center #FFFFFF;
+    border: 1px solid #6FAC4C;
+    font-size: 0.7em;
+    margin: 8px 0 0 8px;
+    padding: 1px 21px 1px 1px;
+    width: 84px;
+		color: #8ec640;
+}
+#header ul li a > span { display: block; }
+/* CONTENT */
+
+#content {
+	background: #f6f6f6 url('assets/footer.png') left bottom no-repeat;
+	padding: 0 169px;
+}
+#footer {
+	
+}
+#footer div.footer_head {
+    background: url("assets/footer_head.png") no-repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #E1E1E1;
+    height: 76px;
+}
+#footer div.footer_head ul { margin: 0 0 0 104px; }
+#footer div.footer_head li {
+	padding: 32px 2px 0;
+	float:left;
+}
+#footer div.footer_content {
+	height: 139px;
+	background: #ececec;
+}
+#footer div.footer_content > div {
+	border-right: 1px solid #f4f4f4;
+	border-left: 1px solid #d6d6d6;
+	float:left;
+	height: inherit;
+}
+#footer div.footer_content > div h3 {
+	  color: #8EC641;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+}
+#footer div.footer_content > div li {
+	background: url('assets/flecha.png') left center no-repeat;
+	padding-left: 12px;
+}
+#footer div.footer_content > div li a {
+	  color: #306A37;
+    font-size: 0.6em;
+}
+#footer div.footer_content > div:last-child { border-right: 0; }
+#footer div.footer_content > div:first-child { border-left: 0; }
