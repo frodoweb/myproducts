@@ -21,22 +21,22 @@ body {
 	font: bold 1.4em/19px Ubuntu;
 }
 #header > a { float: left; }
-#header ul {overflow: hidden; background: url('assets/fondomenu.png') repeat-x; }
+#header ul { overflow: hidden; background: url('assets/fondomenu.png') repeat-x; }
 #header ul li {
 	width: 126px;
 	height: 100px;
 	background: url('assets/fondomenu.png') repeat-x;
-	float:left;
+	float: left;
 	border-bottom: 1px solid #7eb148;
 	border-left: 1px solid #4aaf41;
 	border-right: 1px solid #a0d318;
 }
 #header ul li a {
-	  color: #FFFFFF;
-    display: block;
-		margin: 59px 0 0 7px;
-    text-decoration: none;
-    text-shadow: 1px 1px #609962;
+	color: #FFFFFF;
+	display: block;
+	margin: 59px 0 0 7px;
+	text-decoration: none;
+	text-shadow: 1px 1px #609962;
 }
 #header a:hover { color: #d9e12e; }
 #header a.mini {
@@ -50,86 +50,140 @@ body {
   padding: 28px 0 4px 8px;
 }
 #header li.register > a {
-    font-size: 0.6em;
-    margin: 0 0 0 8px;
+	font-size: 0.6em;
+	margin: 0 0 0 8px;
 }
 #header li.register > a:first-child { margin-top: 12px; } 
 #header form input[type=text] {
-    background: url("assets/lupa.png") no-repeat scroll right center #FFFFFF;
-    border: 1px solid #6FAC4C;
-    font-size: 0.6em;
-    margin: 8px 0 0 8px;
-    padding: 1px 21px 1px 1px;
-    width: 84px;
-		color: #8ec640;
+	background: url("assets/lupa.png") no-repeat scroll right center #FFFFFF;
+	border: 1px solid #6FAC4C;
+	font-size: 0.6em;
+	margin: 8px 0 0 8px;
+	padding: 1px 21px 1px 1px;
+	width: 84px;
+	color: #8ec640;
 }
 #header ul li a > span { display: block; }
 /* CONTENT */
 
 div.box {
-    background: url("assets/bg_box.png") repeat-x scroll 0 0 #FFFFFF;
-    border-bottom: 1px solid #E4E4E4;
-    border-top: 1px solid #FFFFFF;
-    height: 300px;
-    position: relative;
-    width: 623px;
-		color: #5B5A5A;
+	background: url("assets/bg_box.png") repeat-x scroll 0 0 #FFFFFF;
+	border-bottom: 1px solid #E4E4E4;
+	border-top: 1px solid #FFFFFF;
+	height: 272px;
+	position: relative;
+	width: 623px;
+	color: #5B5A5A;
+}
+div.box p {
+	line-height: 18px;
+	margin: 21px 0 0 21px;
+}
+div.box a {
+	bottom: 10px;
+	color: #AEAAA7;
+	position: absolute;
+	background: url('assets/flecha_green.png') left center no-repeat;
+	padding-left: 14px;
+	text-decoration: none;
+	left: 21px;
 }
 div.box1 { float:left; }
 div.box1 h1 {
-	    color: #6EC72E;
-    font: bold 3.2em Ubuntu;
-    letter-spacing: -2px;
-    margin: 20px 0 0 19px;
+	color: #6EC72E;
+	font: bold 3.2em Ubuntu;
+	letter-spacing: -2px;
+	margin: 20px 0 0 19px;
 }
 div.box1 h1 > span {
-	    color: #D6E100;
-    display: block;
-    line-height: 20px;
-}
-div.box p {
-	  line-height: 18px;
-    margin: 21px 0 0 21px;
+	color: #D6E100;
+	display: block;
+	line-height: 20px;
 }
 div.box1 p { width: 259px; }
-div.box a {
-	  bottom: 10px;
-    color: #AEAAA7;
-    position: absolute;
-		background: url('assets/flecha_green.png') left center no-repeat;
-		padding-left: 14px;
-		text-decoration: none;
-		left: 21px;
-}
-img.box1_bascula {
-	  bottom: 0;
-    position: absolute;
-    right: 0;
+
+img.corner_right_down {
+	bottom: 0;
+	position: absolute;
+	right: 0;
 }
 
 div.box2 {
 	background: #f8f8f8 url('assets/box2_bg.png') right bottom no-repeat;
 	width: 301px;
-	height: 300px;
 	margin-left: 638px;
+}
+div.box_shadow {
 	-moz-box-shadow: 0 0 8px #7F7F7F;
 	box-shadow: 0 0 8px #7F7F7F;
 	-webkit-box-shadow: 0 0 8px #7F7F7F;
 }
 div.box2 h2 {
-	    color: #8FC742;
-    font: bold 1.3em/16px Ubuntu;
-    margin: 25px 0 0 25px;
+	color: #8FC742;
+	font: bold 1.3em/16px Ubuntu;
+	margin: 25px 0 0 25px;
 }
 div.box2 h2 > span {
-	    color: #009352;
-    display: block;
+	color: #009352;
+	display: block;
 }
 div.box2 p {
-	    margin: 15px 0 0 25px;
-    width: 164px;
+	margin: 15px 0 0 25px;
+	width: 164px;
 }
-
+.last { margin-right: 0 !important;}
+div.box3 {
+	width: 302px;
+	margin: 15px 17px 0 0;
+	float:left;
+}
+div.box3 h2 {
+	color: #8FC742;
+	font: bold 1.4em/11px Ubuntu;
+	margin: 30px 0 0 15px;
+}
+div.box3 h2 >span {
+	color: #E6A200;
+	display: block;
+	font: bold 2.8em/39px Ubuntu;
+	letter-spacing: -3px;
+}
+div.box3 p {
+	width: 255px;
+}
+div.box3 blockquote {
+	background: url("assets/blockquote_align.png") no-repeat scroll 0 0 transparent;
+	height: 93px;
+	margin: 30px 0 0 15px;
+	text-indent: -99999px;
+	width: 174px;
+}
+div.menu {
+	background: none repeat scroll 0 0 #8EC641;
+	color: #FFFFFF;
+	height: 43px;
+	margin: 5px 0 0 15px;
+	width: 266px;
+}
+div.menu > span {
+	display: block;
+	float: left;
+	font: bold 2.8em Ubuntu;
+	height: 43px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 49px;
+}
+div.menu > h4 {
+	font: bold 1.2em Ubuntu;
+	letter-spacing: -1px;
+	padding-top: 6px;
+	text-transform: uppercase;	
+}
+div.menu > p {
+	line-height: 4px;
+	margin: 0;
+}
 
 /* FOOTER */
 #content {
@@ -138,12 +192,13 @@ div.box2 p {
 }
 #footer {
 	font-family: Ubuntu;
-	margin-top: 30px; /* DELETE */
+	padding-top: 30px; /* DELETE */
+	clear: both;
 }
 #footer div.footer_head {
-    background: url("assets/footer_head.png") no-repeat scroll 0 0 transparent;
-    border-bottom: 1px solid #E1E1E1;
-    height: 76px;
+	background: url("assets/footer_head.png") no-repeat scroll 0 0 transparent;
+	border-bottom: 1px solid #E1E1E1;
+	height: 76px;
 }
 #footer div.footer_head ul { margin: 0 0 0 104px; }
 #footer div.footer_head li {
@@ -162,47 +217,47 @@ div.box2 p {
 	height: inherit;
 }
 #footer div.footer_content > div h2 {
-	  border-bottom: 1px solid #D5D5D5;
-    color: #C74277;
-    font-size: 1.6em;
-    font-weight: bold;
-    height: 38px;
-    line-height: 38px;
-    text-align: center;
+	border-bottom: 1px solid #D5D5D5;
+	color: #C74277;
+	font-size: 1.6em;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
 }
 #footer div.footer_content > div h3.down_pedido {
-	  border-top: 1px solid #F6F6F6;
-    margin: 0;
-    padding: 7px 0 0 7px;
+	border-top: 1px solid #F6F6F6;
+	margin: 0;
+	padding: 7px 0 0 7px;
 }
 #footer div.footer_content > div h3 {
-    color: #8EC641;
-    font-size: 1.1em;
-    font-weight: bold;
-    margin: 7px 0 0 7px;
+	color: #8EC641;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 7px 0 0 7px;
 }
 #footer div.footer_content > div h4 {
-    color: #8EC641;
-    font-size: 0.9em;
-    font-weight: bold;
-    margin: 12px 0 3px 20px;
+	color: #8EC641;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 12px 0 3px 20px;
 }
 #footer div.footer_content > div p {
-    font-family: Ubuntu;
-    font-size: 0.9em;
-    margin: 0 0 0 20px;
+	font-family: Ubuntu;
+	font-size: 0.9em;
+	margin: 0 0 0 20px;
 }
 #footer div.footer_content > div ul { margin: 4px 0 0 8px; }
 #footer div.footer_content > div li {
-    background: url("assets/flecha.png") no-repeat scroll left center transparent;
-    line-height: 12px;
-    padding-left: 12px;
+	background: url("assets/flecha.png") no-repeat scroll left center transparent;
+	line-height: 12px;
+	padding-left: 12px;
 }
 #footer div.footer_content > div li a {
-    color: #306A37;
-    font-family: Arial;
-    font-size: 0.8em;
-    text-decoration: none;
+	color: #306A37;
+	font-family: Arial;
+	font-size: 0.8em;
+	text-decoration: none;
 }
 #footer div.footer_content > div:last-child { border-right: 0; }
 #footer div.footer_content > div:first-child { border-left: 0; }
